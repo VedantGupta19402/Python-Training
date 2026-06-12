@@ -1,0 +1,15 @@
+//  PYTHON NOTES 
+fast-fast beacuse interpreter language so faster than other languages W.R.T TO AI
+interpreter -execute code line by line
+machine independent-does not depend on machine
+open source language-can be used by everyone 
+
+// # DATATYPES
+str-kutch bhi double qquotes k andar is string 
+int-koyi bhi number rg 1,2,3,4,-1,-4,-100000,1000000000000000
+float-koyi bhi decimal no eg-1.2,4.5,15/3
+bool-boolean value True or False
+
+int()=string ko integer me convert krna he tu int se krenge 
+str()=
+//  if/else
