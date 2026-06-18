@@ -66,27 +66,31 @@
 # for i in range(1,6):
 #   sum+=i
 # print(sum)
-class Solution:
-    def countOperations(self, num1: int, num2: int) -> int:
-        steps=0
-    while num1>0 and num2>0:
-        if num1>num2:
-            num1==num2-num1
-            newvalue==num1
-            steps+=1
-        else:
-            num2==num1-num2
-            newvalue==num2  
-        if newvalue==0:
-         steps+=1
+# class Solution:
+#     def countOperations(self, num1: int, num2: int) -> int:
+#         steps=0
+#     while num1>0 and num2>0:
+#         if num1>num2:
+#             num1==num2-num1
+#             newvalue==num1
+#             steps+=1
+#         else:
+#             num2==num1-num2
+#             newvalue==num2  
+#         if newvalue==0:
+#          steps+=1
 
-class Solution:
-    def subtractProductAndSum(self, n: int) -> int:
-        n=2
-        product=1
-        sum=0
-        while n>0:
-            ld=n//10
-            sum+=ld
-            product*=ld
-            return product-sum
+# class Solution:
+#     def subtractProductAndSum(self, n: int) -> int:
+#         n=2
+#         product=1
+#         sum=0
+#         while n>0:
+#             ld=n//10
+#             sum+=ld
+#             product*=ld
+#             return product-sum
+# string
+a="aditya"
+print(a[0])
+print(a[1])
