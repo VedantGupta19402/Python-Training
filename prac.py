@@ -128,3 +128,20 @@ def calculatesum(a,b):
     return(a+b)
 # --return stores the value and it is functional  scope
 calculatesum(10,2)
+
+# RECURSION 
+# it is calling same function again and again
+# it has 2 steps 
+# 1.base collection
+# 2. function calling
+ 
+def fact(n):
+ if n==1:
+     return 1
+ return n*fact(n-1)
+fact(5)
+def fibonacci(n):
+	if n <= 1:
+	   return 0
+    else:
+     
