@@ -91,6 +91,40 @@
 #             product*=ld
 #             return product-sum
 # string
-a="aditya"
-print(a[0])
-print(a[1])
+# a="aditya"
+# print(a[0])
+# print(a[1])
+# X=int(input(225))
+# moneyleft=X-100
+# count=0 
+# while 2>1: 
+#     if moneyleft>=50:
+#       count+=1
+#     else:
+#       break
+# print(count)
+# for i in range(0,20,1):
+#  print(i)
+#  types of functions
+#  funtion with no return and no parameters
+def calculatesum():
+    a=10
+    b=2
+    print(a+b)
+calculatesum()
+
+# funtion with no return and with parameters
+def calculatesum(a,b):
+    print(a+b)
+calculatesum(10,2)
+# funtion with  return and with no  parameters
+def calculatesum():
+    a=10
+    b=2
+    return(a+b)
+# --return stores the value and it is functional  scope
+# funtion with  return and with parameters
+def calculatesum(a,b):
+    return(a+b)
+# --return stores the value and it is functional  scope
+calculatesum(10,2)
