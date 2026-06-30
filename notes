@@ -13,3 +13,18 @@ bool-boolean value True or False
 int()=string ko integer me convert krna he tu int se krenge 
 str()=
 //  if/else
+
+
+//  COLLECTION-stores multiple values in a single collection
+-------------------------------------------------------------
+// 1>list
+----------
+// -->ordered list-->ek order me list rheta he
+// -->mutable-->ki like apan value ko list me change kr skte he  list(map(int,input().split()))
+// -->allow duplicate value 
+//  -->store value of diff datatype
+
+//2> trupple
+-------------
+// dictinaory
+// set

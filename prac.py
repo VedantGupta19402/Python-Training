@@ -135,13 +135,50 @@ calculatesum(10,2)
 # 1.base collection
 # 2. function calling
  
-def fact(n):
- if n==1:
-     return 1
- return n*fact(n-1)
-fact(5)
-def fibonacci(n):
-	if n <= 1:
-	   return 0
-    else:
-     
+# def fact(n):
+#  if n==1:
+#      return 1
+#  return n*fact(n-1)
+# fact(5)
+# def fibonacci(n):
+# 	if n <= 1:
+# 	   return 0
+#     else:
+   
+
+# COLLECTION-stores multiple values in a 
+X=[1,2,3,4]
+# X.append(10)
+# append last me add kr deta he
+print(X)
+X.insert(1,10) 
+print(X)
+print(X[2])
+X.extend("akfhsklHFL")
+print(X)
+X.remove("f")
+#  remove kr dega first element
+print(X)
+X.pop()
+# //lasst value ko hta deta he
+print(X)
+
+
+# SOME IMP USEFUL FUNCTIONS
+# 1>SORT --->ASCENDING ORDER ME KREGA PRINT
+# integers ko ascending order me kr denge or string or string me ski value lagegi
+a=[2,90,7,3]
+# a.sort()
+# print(a)
+# 2>REVERSE 
+# a.reverse()
+# print(a)
+# 3>INDEX 
+# k=a.index(90)
+# print(k)
+# indexing bta dega
+# 4>COUNT
+# a.count()
+# print(a)
+
+# in the first libe u have to take an integer n form a input then u have to take n element in same line in input theen u have to take a sinhle element from a input in next line and remove all occurance in it
